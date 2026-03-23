@@ -1,0 +1,15 @@
+{
+  "_notes": "frontend/package.json",
+  "_purpose": "Configure React + Vite + TypeScript scripts and placeholder dependency list.",
+  "name": "rc-car-graph-chatbot-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "_dependency_notes": "When you’re ready to run the frontend, replace the empty dependency set below with the actual Vite/React/TypeScript dependencies you want to use."
+}
+

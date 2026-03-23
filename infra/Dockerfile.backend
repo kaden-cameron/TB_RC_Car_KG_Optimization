@@ -1,0 +1,17 @@
+# infra/Dockerfile.backend
+#
+# Purpose: Build a local Docker image for the FastAPI backend.
+# Team responsibility: `backend/` is the source-of-truth for API code.
+#
+# Placeholder scaffold:
+# - Add dependency installation and application launch steps here once
+#   the backend Python modules are implemented.
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# TODO: Copy requirements + install deps.
+# TODO: Copy backend source.
+# TODO: Set environment variables and run `uvicorn`.
+

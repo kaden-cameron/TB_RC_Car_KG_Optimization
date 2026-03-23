@@ -1,0 +1,17 @@
+# infra/Dockerfile.frontend
+#
+# Purpose: Build a local Docker image for the React + Vite frontend.
+# Team responsibility: `frontend/` contains UI code.
+#
+# Placeholder scaffold:
+# - Add dependency install and dev/build/serve steps once the frontend
+#   implementation is added.
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# TODO: Copy package.json + install deps.
+# TODO: Copy frontend source.
+# TODO: Start Vite dev server or serve build output.
+

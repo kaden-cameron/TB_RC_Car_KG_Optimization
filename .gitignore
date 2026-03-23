@@ -1,0 +1,43 @@
+# Ignored files/folders for this multi-language repo.
+# Code/data team notes:
+# - Do not commit raw telemetry from `electrical_dropoff/raw_runs/` (use Git LFS or external storage if needed later).
+# - Keep local env files (like `.env`) out of version control.
+
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+.turbo/
+
+# Data / graph outputs
+data_team/processed/
+data_team/graph_ready/
+# NOTE: `data_team/graph/` contains loader code + Cypher queries, not generated output.
+# Do not ignore it.
+
+# Neo4j
+neo4j_data/
+
+# Keep placeholder dirs commit-able
+!data_team/processed/.gitkeep
+!data_team/graph_ready/.gitkeep
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
