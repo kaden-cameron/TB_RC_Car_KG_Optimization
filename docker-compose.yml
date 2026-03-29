@@ -13,7 +13,7 @@
 #   docker compose down            Stop everything
 #   docker compose logs -f backend Follow backend logs
 #
-# Instructor-owned file — students should NOT need to edit this.
+# students should NOT need to edit this.
 # ──────────────────────────────────────────────────────────────
 
 services:

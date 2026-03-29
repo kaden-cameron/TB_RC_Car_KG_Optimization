@@ -3,7 +3,7 @@
 #
 # Builds the local dev image for the FastAPI backend.
 #
-# Key concepts for students:
+# Key concepts:
 #   - Multi-step COPY: we copy requirements.txt first so Docker
 #     can cache the dependency-install layer. Source code changes
 #     won't re-download packages.
@@ -11,7 +11,7 @@
 #   - ENV vars configure Python to behave well in containers.
 #   - CMD launches the app; --reload enables hot-reload during dev.
 #
-# Instructor-owned file — students should NOT need to edit this.
+# students should NOT need to edit this.
 # ──────────────────────────────────────────────────────────────
 
 FROM python:3.11-slim

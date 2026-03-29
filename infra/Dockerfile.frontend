@@ -11,7 +11,7 @@
 #   - Source code is volume-mounted by docker-compose.yml for
 #     live hot-module-reload during development.
 #
-# Instructor-owned file — students should NOT need to edit this.
+# students should NOT need to edit this.
 # ──────────────────────────────────────────────────────────────
 
 FROM node:20-alpine
